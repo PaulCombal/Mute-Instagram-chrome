@@ -1,0 +1,32 @@
+{
+  "content_scripts": [ 
+    {
+        "js": [ "jquery.min.js", "core.js" ],
+        "matches": [ /*"*://www.reddit.com/*", "*://reddit.com/*",*/ "*://www.instagram.com/*", "*://instagram.com/*" ]
+      }],
+   
+   "icons": {
+      "128": "img/stfu128.png",
+      "16": "img/stfu16.png",
+      "48": "img/stfu48.png"
+   },
+   "manifest_version": 2,
+
+   "name": "Mute Instagram",
+
+   "short_name": "Just mute it",
+
+   "description": "Adds an option to mute instagram videos",
+
+   "permissions": [ "contextMenus" ],
+
+   "version": "1.0.0",
+
+   "web_accessible_resources": [ 
+    ],
+
+    "options_ui": {
+      "page": "settings.html",
+      "chrome_style": true
+   }
+}
