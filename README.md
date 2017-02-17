@@ -1,2 +1,4 @@
-# Mute-Instagram-chrome
-Adds a button to toggle sound on instagram videos  and default mutes on reddit
+# Mute Instagram-chrome
+
+For those who whish Instagram would be more silent.
+Adds a toggle sound button next to every playing video
