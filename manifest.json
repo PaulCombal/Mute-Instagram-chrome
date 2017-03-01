@@ -2,8 +2,8 @@
   "content_scripts": [ 
     {
         "js": [ "jquery.min.js", "core.js" ],
-        "matches": [ /*"*://www.reddit.com/*", "*://reddit.com/*",*/ "*://www.instagram.com/*", "*://instagram.com/*" ]
-      }],
+        "matches": ["*://www.instagram.com/*", "*://instagram.com/*" ]
+    }],
    
    "icons": {
       "128": "img/stfu128.png",
@@ -18,7 +18,7 @@
 
    "description": "Adds an option to mute instagram videos",
 
-   "permissions": [ "contextMenus" ],
+   "permissions": [ ],
 
    "version": "1.0.0",
 
