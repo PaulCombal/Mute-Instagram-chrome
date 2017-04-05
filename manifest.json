@@ -12,7 +12,7 @@
    },
    "manifest_version": 2,
 
-   "name": "Mute Instagram",
+   "name": "Instagram silencer",
 
    "short_name": "Just mute it",
 
@@ -20,7 +20,7 @@
 
    "permissions": [ ],
 
-   "version": "1.0.0",
+   "version": "1.0.1",
 
    "web_accessible_resources": [ 
     ],
