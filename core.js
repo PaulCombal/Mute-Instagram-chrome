@@ -20,11 +20,13 @@ $(document).on("click", () =>{
 function processVid(index, dom) {
 
 		//If we found an instagram video we didnt process yet
-		if ($(dom).attr("poster").includes("cdninstagram.com") && ($(dom).parent().parent().parent().parent().parent().parent().parent().parent().find("#muteInsta").length == 0) ) {
+		if ($(dom).attr("poster").includes("cdninstagram.com") && ($(dom).parent().parent().parent().parent().parent().parent().parent().parent().parent().parent().find("#muteInsta").length == 0) ) {
 			dom.muted = true;
 
 
 			$(dom)
+			.parent()
+			.parent()
 			.parent()
 			.parent()
 			.parent()
